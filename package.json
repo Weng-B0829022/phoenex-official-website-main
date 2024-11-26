@@ -1,0 +1,27 @@
+{
+  "name": "phoenex-official-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vidstack/player": "^1.6.5",
+    "@vidstack/player-react": "^1.6.5",
+    "autoprefixer": "10.4.16",
+    "next": "14.0.3",
+    "postcss": "8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.15.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "redux": "^5.0.1",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "3.3.5",
+    "video-react": "^0.16.0"
+  }
+}

@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+p{
+  @apply m-0 leading-loose
+}
+
+.blue-btn{
+  @apply bg-cblue px-5 lg:px-10 py-3 rounded-lg font-semibold 
+}
+
+h1{
+  @apply text-3xl lg:text-7xl font-bold  
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  @apply text-base
+}
+.product-hero-bg{
+  background-image: url("../images/product-services/hero_img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  
+}
+
+.workshop-hero-bg{
+  background-image: url("../images/workshop/hero_img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.community-hero{
+  background-image: url("../images/community-overview/hero_img.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+
+@media screen and (max-width: 768px) {
+  .product-hero-bg, .workshop-hero-bg, .community-hero{
+    background-image: none;
+  }
+}
+.video-react-poster, .video-react-video{
+  background-size: cover !important;
+  border-radius: 20px !important;
+  background-color: #1F1F1F !important;
+  
+}
+
+ .video-react-control-bar, .video-react .video-react-big-play-button{
+  display: none !important
+ }
